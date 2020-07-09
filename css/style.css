@@ -266,7 +266,7 @@ a {
 
 .our-trip__content {
   padding-right: 55px;
-  width: 50%;
+  width: 100%;
 }
 
 .hotel__title span {
@@ -502,6 +502,7 @@ a {
     margin-left: 520px;
     margin-top: -68px;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -528,6 +529,58 @@ a {
   .our-trip__btn {
     margin-bottom: 5px;
   }
+
+  .container {
+    padding: 0 0;
+  }
+
+  .hotel__inner {
+    display: block;
+  }
+
+  .hotel__images {
+    width: 100%;
+  }
+
+  .hotel__content {
+    font-size: 29px;
+    line-height: 30px;
+    padding: 0px 15px;
+  }
+
+  .hotel__gallery {
+    justify-content: space-around;
+    padding: 0 60px;
+  }
+
+  .hotel__title,
+  .price__title {
+    padding-left: 15px;
+  }
+
+  .price__inner {
+    padding: 0 15px;
+  }
+
+  .contacts__inner {
+    display: block;
+  }
+
+  .contacts__images {
+    width: 100%;
+  }
+
+  .contacts__content {
+    margin-bottom: 10px;
+  }
+
+  .contacts__form-title {
+    margin-bottom: 20px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 840px) {
@@ -552,6 +605,10 @@ a {
     width: 25px;
     height: 25px;
     background-size: cover;
+  }
+
+  .hotel__gallery {
+    padding: 0 0;
   }
 
 }
@@ -621,6 +678,81 @@ a {
     padding: 10px 45px;
   }
 
+  .hotel__title span,
+  .price__title span {
+    margin-left: 90px;
+  }
+
+  .hotel__gallery {
+    display: block;
+    text-align: center;
+  }
+
+  .hotel__text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .price__inner {
+    padding: 0 15px;
+  }
+
+  .price__inner {
+    display: block;
+  }
+
+  .price__on {
+    width: 100%;
+  }
+
+  .price__on-title,
+  .price__off-title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .price__list {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .contacts__date,
+  .contacts__price {
+    font-size: 80px;
+  }
+
+  .contacts__date span,
+  .contacts__price span {
+    font-size: 18px;
+    line-height: 13px;
+    margin-left: 161px;
+    margin-top: -10px;
+  }
+
+  .contacts__info {
+    margin-bottom: 10px;
+  }
+
+  .footer__contacts {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 400px;
+    margin-bottom: 60px;
+
+  }
+
+  .footer__contacts-title {
+    font-size: 58px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    line-height: 105px;
+  }
+
+  .footer__text {
+    font-size: 45px;
+    line-height: 40px;
+  }
 }
 
 @media (max-width: 370px) {
@@ -646,6 +778,10 @@ a {
 
   .title {
     font-size: 45px;
+  }
+
+  .fairy-tail__title {
+    padding: 0 15px;
   }
 
   .fairy-tail span {
@@ -677,5 +813,72 @@ a {
     font-size: 17px;
     line-height: 17px;
     padding: 10px 30px;
+  }
+
+  .hotel__title span,
+  .price__title span {
+    margin-left: 55px;
+  }
+
+  .hotel__text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .hotel__gallery {
+    display: block;
+  }
+
+  .price__inner {
+    display: block;
+  }
+
+  .price__on {
+    width: 100%;
+  }
+
+  .price__on-title,
+  .price__off-title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .price__list {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .contacts__info {
+    margin-bottom: 20px;
+  }
+
+  .contacts__date,
+  .contacts__price {
+    font-size: 50px;
+  }
+
+  .contacts__date span,
+  .contacts__price span {
+    font-size: 17px;
+    line-height: 10px;
+    margin-left: 150px;
+    margin-top: -25px;
+  }
+
+  .contacts__price {
+    margin-left: 80px;
+  }
+
+  .contacts__date {
+    margin-bottom: 0px;
+  }
+
+  .contacts__form-title {
+    font-size: 17px;
+    line-height: 10px;
+  }
+
+  .footer {
+    padding-top: 10px;
   }
 }
